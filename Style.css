@@ -3,8 +3,8 @@
 
 body{background-color:#CCC; font-size:100%;}
 h1{text-align:center; font-family:"Courier New", Courier, monospace; font-size:2.5em; text-indent:-9%;}
-p.main{text-indent:25px;}
-div.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
+.main{text-indent:25px;}
+.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
 a:link {text-decoration:none; color:white;}
 a:visited {text-decoration:none; color:white}
 
@@ -13,15 +13,15 @@ a.extLink:link, a.extLink:visited
     display : block;
     margin-bottom: 10px;
     text-decoration:none;
-    width:100%;
+    width:100%;;
     line-height:30px;
-    vertical-align: middle;
     text-align:left;
     text-indent: 2%;
     border : 1px solid #999999;
     background-color:#999999;
-    color:#FFF
+    color:#FFF;
     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     border-radius: 10px;
  
     -webkit-transition: all .5s ease-in-out;
