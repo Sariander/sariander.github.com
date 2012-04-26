@@ -3,6 +3,7 @@
 
 body{background-color:#CCC; font-size:100%;}
 h1{text-align:center; font-family:"Courier New", Courier, monospace; font-size:2.5em; text-indent:-9%;}
+p.main{text-indent:25px;}
 div.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
 a:link {text-decoration:none; color:white;}
 a:visited {text-decoration:none; color:white}
