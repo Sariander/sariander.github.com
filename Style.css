@@ -1,27 +1,63 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{background-color:#CCC; font-size:100%;}
+#mainouter {
+  position: relative;
+  z-index: 5;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 33%;
+  margin-right: 24%;
+  color:#FFF;
+  background-color:#333;
+  border-color:#666;
+  min-height: 100%;
+}
+#article {
+  position: relative;
+  z-index: 10;
+  padding-top: .25%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color:#FFF;
+  background-color:#666;
+  border-radius: 10px;
+  border-color:#333;
+  border-style:inset;
+  border-width:5px;
+  min-height: 100%;
+} 
+
+p.main{text-indent:25px;}
+body{
+    background:#999; /* old browsers */
+	background: -moz-linear-gradient(top, #999 0%, #000000 100%) fixed; /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#999), color-stop(100%,#000000)) fixed; /* webkit */
+	}
 h1{text-align:center; font-family:"Courier New", Courier, monospace; font-size:2.5em; text-indent:-9%;}
-.main{text-indent:25px;}
-.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
+div.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
+h2.article{text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:2em;}
 a:link {text-decoration:none; color:white;}
-a:visited {text-decoration:none; color:white}
+a:visited {text-decoration:none; color:white;}
 
 a.extLink:link, a.extLink:visited
 {
-    display : block;
+	display : block;
     margin-bottom: 10px;
     text-decoration:none;
-    width:100%;;
+    width:100%;
     line-height:30px;
+    vertical-align: middle;
     text-align:left;
-    text-indent: 2%;
-    border : 1px solid #999999;
+	text-indent: 2%;
+    border : 3px solid #999999;
+	border-style:outset;
     background-color:#999999;
-    color:#FFF;
+    color:#FFF
     -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
  
     -webkit-transition: all .5s ease-in-out;
@@ -33,42 +69,49 @@ a.extLink:link, a.extLink:visited
 
 a.page:link, a.page:visited
 {
-	background-color:#666;
-	border : 1px solid #666;
+	background-color:#333;
+	border: 3px solid #333;
+	border-style:inset;
 }
 
 a.Home:hover
 {
 	background-color:#FC0;
-	border : 1px solid #FC0;
+	border: 3px solid #FC0;
+	border-style:inset;
 }
 
 a.Blog:hover
 {
 	background-color:#006600;
-	border : 1px solid #006600;
+	border: 3px solid #006600;
+	border-style:inset;
 }
 
 a.Facebook:hover
 {
 	background-color:#000099;
-	border : 1px solid #000099;
+	border: 3px solid #000099;
+	border-style:inset;
 }
 
 a.Google:hover
 {
 	background-color:#990000;
-	border : 1px solid #990000;
+	border: 3px solid #990000;
+	border-style:inset;
 }
 
 a.Twitter:hover
 {
 	background-color:#0066FF;
-	border : 1px solid #0066FF;
+	border: 3px solid #0066FF;
+	border-style:inset;
 }
 
 a.Mail:hover
 {
 	background-color:#C60;
-	border : 1px solid #C60;
+	border: 3px solid #C60;
+	border-style:inset;
 }
