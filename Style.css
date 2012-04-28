@@ -29,7 +29,7 @@
   border-style:inset;
   border-width:5px;
   min-height: 100%;
-} 
+}
 
 p.main{text-indent:25px;}
 body{
@@ -39,9 +39,17 @@ body{
 	}
 h1{text-align:center; font-family:"Courier New", Courier, monospace; font-size:2.5em; text-indent:-9%;}
 div.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
-h2.article{text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:2em;}
-a:link {text-decoration:none; color:white;}
-a:visited {text-decoration:none; color:white;}
+h2.article{text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:2.2em; padding:0px; margin:0px}
+a.email{text-align:left; color:#000; font-family:"Courier New", Courier, monospace; font-size:1em;}
+a.email:hover{
+	color:#F00; 
+	-webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
 
 a.extLink:link, a.extLink:visited
 {
@@ -59,6 +67,7 @@ a.extLink:link, a.extLink:visited
     color:#FFF
     -moz-border-radius: 10px;
     border-radius: 10px;
+	color:white;
  
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -72,6 +81,7 @@ a.page:link, a.page:visited
 	background-color:#333;
 	border: 3px solid #333;
 	border-style:inset;
+	color:white;
 }
 
 a.Home:hover
@@ -114,4 +124,12 @@ a.Mail:hover
 	background-color:#C60;
 	border: 3px solid #C60;
 	border-style:inset;
+}
+
+.line {
+background-color:#000;
+border-bottom:1px solid #999;
+height:1px;
+margin:0.5em 0;
+overflow:hidden;
 }
