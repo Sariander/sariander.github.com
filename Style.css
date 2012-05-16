@@ -31,7 +31,7 @@
   min-height: 100%;
 }
 
-p.main{text-indent:25px;}
+p.main{text-indent:5%;}
 body{
     background:#999; /* old browsers */
 	background: -moz-linear-gradient(top, #999 0%, #000000 100%) fixed; /* firefox */
@@ -40,7 +40,10 @@ body{
 h1{text-align:center; font-family:"Courier New", Courier, monospace; font-size:2.5em; text-indent:-9%;}
 div.leftbar {text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:1.2em;}
 h2.article{text-align:left; color:white; font-family:"Courier New", Courier, monospace; font-size:2.2em; padding:0px; margin:0px}
-a.email{text-align:left; color:#000; font-family:"Courier New", Courier, monospace; font-size:1em;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline}
+a.email{text-align:left; color:#000; font-family:"Courier New", Courier, monospace; font-size:1em; text-decoration:none;}
 a.email:hover{
 	color:#F00; 
 	-webkit-transition: all .5s ease-in-out;
@@ -48,8 +51,6 @@ a.email:hover{
     -o-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;}
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
 
 a.extLink:link, a.extLink:visited
 {
@@ -123,6 +124,13 @@ a.Mail:hover
 {
 	background-color:#C60;
 	border: 3px solid #C60;
+	border-style:inset;
+}
+
+a.Bio:hover
+{
+	background-color:#600;
+	border: 3px solid #600;
 	border-style:inset;
 }
 
